@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+
+{
+	int a, b, c;;
+	
+	cout<<"sebelum ditukar"<<endl;
+	cout<<"masukan nilai a = ";cin>>a;
+	b = a*a ;
+	cout<<"hasil kuadrat = "<<b<<endl;
+	c = a;
+	a = b;
+	b = c;
+	cout<<"sesudah ditukar"<<endl;
+	cout<<"hasil nilai A = "<<endl;
+	cout<<"hasil kuadrat = "<<b<<endl;
+	cin.get();
+	return 0;;
+	
+}
